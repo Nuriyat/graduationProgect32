@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		84004F3722B1BD6400C3411B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84004F3622B1BD6400C3411B /* AppDelegate.swift */; };
-		84004F3922B1BD6400C3411B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84004F3822B1BD6400C3411B /* ViewController.swift */; };
 		84004F3C22B1BD6400C3411B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84004F3A22B1BD6400C3411B /* Main.storyboard */; };
 		84004F3E22B1BD6500C3411B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84004F3D22B1BD6500C3411B /* Assets.xcassets */; };
 		84004F4122B1BD6500C3411B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84004F3F22B1BD6500C3411B /* LaunchScreen.storyboard */; };
 		84004F4C22B1BD6500C3411B /* graduationProgectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84004F4B22B1BD6500C3411B /* graduationProgectTests.swift */; };
 		84004F5722B1BD6500C3411B /* graduationProgectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84004F5622B1BD6500C3411B /* graduationProgectUITests.swift */; };
+		84004F6722B1BDA600C3411B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84004F6522B1BDA600C3411B /* SWRevealViewController.m */; };
+		84004F6A22B1BDFB00C3411B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84004F6922B1BDFB00C3411B /* MainViewController.swift */; };
+		84004F6E22B1D18D00C3411B /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84004F6D22B1D18D00C3411B /* SideMenuViewController.swift */; };
+		84004F7022B1D85000C3411B /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84004F6F22B1D85000C3411B /* NewsViewController.swift */; };
+		84004F7222B1DB9700C3411B /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84004F7122B1DB9700C3411B /* PopularViewController.swift */; };
+		84004F7422B1DBB800C3411B /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84004F7322B1DBB800C3411B /* AboutUsViewController.swift */; };
+		84004F7622B1E95700C3411B /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84004F7522B1E95700C3411B /* MainCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		84004F3322B1BD6400C3411B /* graduationProgect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = graduationProgect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84004F3622B1BD6400C3411B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84004F3822B1BD6400C3411B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84004F3B22B1BD6400C3411B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84004F3D22B1BD6500C3411B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84004F4022B1BD6500C3411B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,15 @@
 		84004F5222B1BD6500C3411B /* graduationProgectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = graduationProgectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84004F5622B1BD6500C3411B /* graduationProgectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graduationProgectUITests.swift; sourceTree = "<group>"; };
 		84004F5822B1BD6500C3411B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84004F6422B1BDA500C3411B /* graduationProgect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "graduationProgect-Bridging-Header.h"; sourceTree = "<group>"; };
+		84004F6522B1BDA600C3411B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		84004F6622B1BDA600C3411B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		84004F6922B1BDFB00C3411B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		84004F6D22B1D18D00C3411B /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		84004F6F22B1D85000C3411B /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		84004F7122B1DB9700C3411B /* PopularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
+		84004F7322B1DBB800C3411B /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		84004F7522B1E95700C3411B /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +112,19 @@
 			isa = PBXGroup;
 			children = (
 				84004F3622B1BD6400C3411B /* AppDelegate.swift */,
-				84004F3822B1BD6400C3411B /* ViewController.swift */,
 				84004F3A22B1BD6400C3411B /* Main.storyboard */,
+				84004F6922B1BDFB00C3411B /* MainViewController.swift */,
+				84004F7522B1E95700C3411B /* MainCell.swift */,
+				84004F6D22B1D18D00C3411B /* SideMenuViewController.swift */,
+				84004F6F22B1D85000C3411B /* NewsViewController.swift */,
+				84004F7122B1DB9700C3411B /* PopularViewController.swift */,
+				84004F7322B1DBB800C3411B /* AboutUsViewController.swift */,
 				84004F3D22B1BD6500C3411B /* Assets.xcassets */,
 				84004F3F22B1BD6500C3411B /* LaunchScreen.storyboard */,
 				84004F4222B1BD6500C3411B /* Info.plist */,
+				84004F6622B1BDA600C3411B /* SWRevealViewController.h */,
+				84004F6522B1BDA600C3411B /* SWRevealViewController.m */,
+				84004F6422B1BDA500C3411B /* graduationProgect-Bridging-Header.h */,
 			);
 			path = graduationProgect;
 			sourceTree = "<group>";
@@ -193,6 +215,7 @@
 				TargetAttributes = {
 					84004F3222B1BD6400C3411B = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					84004F4622B1BD6500C3411B = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -256,8 +279,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84004F3922B1BD6400C3411B /* ViewController.swift in Sources */,
+				84004F7222B1DB9700C3411B /* PopularViewController.swift in Sources */,
+				84004F6E22B1D18D00C3411B /* SideMenuViewController.swift in Sources */,
+				84004F6A22B1BDFB00C3411B /* MainViewController.swift in Sources */,
 				84004F3722B1BD6400C3411B /* AppDelegate.swift in Sources */,
+				84004F7422B1DBB800C3411B /* AboutUsViewController.swift in Sources */,
+				84004F7022B1D85000C3411B /* NewsViewController.swift in Sources */,
+				84004F7622B1E95700C3411B /* MainCell.swift in Sources */,
+				84004F6722B1BDA600C3411B /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = graduationProgect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,6 +470,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = project.graduationProgect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "graduationProgect/graduationProgect-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,6 +481,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = graduationProgect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,6 +490,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = project.graduationProgect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "graduationProgect/graduationProgect-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

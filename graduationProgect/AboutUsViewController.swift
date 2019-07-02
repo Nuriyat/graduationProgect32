@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AboutUsViewController.swift
 //  graduationProgect
 //
 //  Created by admin on 13/06/2019.
@@ -8,13 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AboutUsViewController: UIViewController {
 
+    
+    @IBOutlet weak var button_Menu: UIButton!
+    
+    
+    @IBOutlet weak var real_Estate: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
 
 }
-
